@@ -2,3 +2,33 @@
     margin: 0;
     padding: 0;
 }
+.menucontainr{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoimg{
+    width: 200px;
+    padding: 15px 5px;
+}
+.menu{
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: large;
+}
+.menu li{
+    margin-right: 30px;
+    padding: 10px;
+    width: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: #ffffff;
+    color: rgb(46, 45, 45);
+    cursor: pointer;
+}
