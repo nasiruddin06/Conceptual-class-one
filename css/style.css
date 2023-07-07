@@ -213,3 +213,14 @@ footer{
 .contactinfo p{
     line-height: 30px;
 }
+.copy{
+    text-align: center;
+    color: #fff;
+}
+.copy hr{
+    width: 980px;
+    margin: 0 auto;
+}
+.copy p{
+    padding: 30px;
+}
