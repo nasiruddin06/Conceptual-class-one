@@ -72,3 +72,44 @@
     padding: 20px;
 }
 /* banner closed  */
+
+/* about us start  */
+.about{
+    height: 100vh;
+}
+.abus{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.abutSecContainer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.abutSecContainer img{
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+.abutSecContainer h1{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.abutSecContainer p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.abutSecContainer button{
+    padding: 10px 5px;
+    width: 120px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #ffffff;  
+}
